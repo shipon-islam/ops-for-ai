@@ -18,6 +18,9 @@ const inter = Inter({
 export const metadata = {
   title: "OPS for AI",
   description: "Development operations for AI projects",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
